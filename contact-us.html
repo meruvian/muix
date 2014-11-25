@@ -475,19 +475,35 @@
             <div class="col-sm-6">
                 &copy; 2014 - 2015, <a target="_blank" href="#" title="Hoqii">Hoqii Systems</a>                
             </div>
-            <div class="col-sm-6">
-                <ul class="pull-right">
-                    <li><a href="about-us.html">Tentang</a></li>
-                    <li><a href="policy.html">Ketentuan</a></li>
-                    <li><a href="terms.html">Syarat</a></li>
-                    <li><a href="contact-us.html">Hubungi Kami</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                </ul>
-            </div>
+            <div id="footer1" class="col-sm-6"></div>
         </div>
     </div>
 </footer><!--/#footer-->
+<script>
+var footerHttp = new XMLHttpRequest();
+var footerUrl = "content/footer.json";
 
+footerHttp.onreadystatechange = function() {
+    if (footerHttp.readyState == 4 && footerHttp.status == 200) {
+        var footerArr = JSON.parse(footerHttp.responseText);
+        myFooter(footerArr);
+    }
+}
+footerHttp.open("GET", footerUrl, true);
+footerHttp.send();
+
+function myFooter(arr) {
+    var out = "";
+    var i;
+    out += '<ul class="pull-right">';
+    for(i = 0; i < arr.length; i++) {
+        out += '<li><a href="' + arr[i].link + '">' + arr[i].name + '</a></li>';
+    }
+    out += '</ul>';
+    document.getElementById("footer1").innerHTML = out;
+}
+</script>
+    
 <script src="asset/js/jquery/jquery-2.1.1.min.js"></script>
 <script src="asset/js/bootstrap/bootstrap.js"></script>
 <script src="asset/js/jquery/jquery.arbitrary-anchor.js"/></script>
