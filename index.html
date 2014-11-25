@@ -62,8 +62,23 @@ function mytopNav(arr) {
     for(i = 0; i < arr.length; i++) {
         out += '<li><a class="change" href="'+ arr[i].link +'">' + arr[i].name + '</a></li>';
     }
-
+    navbar.innerHtml = menuhtml;
     document.getElementById("topNav1").innerHTML = out;
+    /*
+    var menuhtml = "<ul class='nav navbar-nav'>";
+for (i = 0; i < data.length; i++) {
+	menuhtml += "<li>";
+	if (data[i].menus) {
+		for (j = 0; j < data[i].menus.length; j++) {
+			menuhtml += "<a class='change' href='" + data[i].menus[j].link + "'/>";
+		}
+	} else {
+		menuhtml += "<a class='change' href='" + data[i].link + "'/>";
+	}
+	menuhtml += "</li>";
+}
+menuhtml += "</ul>";
+    */
 }
 </script>
 </header><!--/header-->
