@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Hoqii System POS Operasional Terpadu">
+    <meta name="author" content="Meruvian">
     <title>Selamat Datang di Website Hoqii</title>
 
     <!-- core CSS -->
@@ -15,129 +15,473 @@
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->       
+    <![endif]-->
     <link rel="shortcut icon" href="images/ico/favicon.ico?v=1.1">
-
+    
 </head><!--/head-->
-        <body class="homepage" data-spy="scroll" data-target=".navbar-fixed-top">
 
-            <div class="navbar navbar-inverse navbar-fixed-top scrollclass navbar-scroll">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html"><img src="asset/image/white_hexa48.png" alt="logo" style="height: 36px;"></a>
-                    </div>
+<body class="homepage" data-spy="scroll" data-target=".navbar-fixed-top">
 
-                    <div id="navbar" class="collapse navbar-collapse navbar-right">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.html">Beranda</a></li>
-                            <li class="dropdown">
-				              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Layanan <span class="caret"></span></a>
-				              <ul class="dropdown-menu" role="menu">
-			                    <li><a href="qpos.html">QPOS</a></li>
-								<li><a href="qcafe.html">QCafe</a></li>
-								<li><a href="qbooth.html">QBooth</a></li>
-								<li><a href="qstore.html">QStore</a></li>
-								<li><a href="qdelivery.html">QDelivery</a></li>
-								<li><a href="qdistribution.html">QDistribution</a></li>
-				              </ul>
-				            </li>
-                            <li> <a href="login.html"> Masuk /Daftar</a></li>
-							<li><a class="change" href="contact-us.html">Hubungi Kami</a></li>
-                        </ul>
-                     </div>
-                </div><!--/.container-->
-            </div><!--/nav-->
-
-        </header><!--/header-->
-
-<section>
-<br>
-    <div class="container">
+    <div id="scroll-nav" class="navbar navbar-inverse navbar-fixed-top scrollclass">
         <div class="container">
-               <div class="center wow fadeInDown">
-                <h2>Tentang Kami</h2>
-                <p class="lead">Apakah Anda ingin tahu lebih banyak? Kami akan senang mendengar dari Anda!</p>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="scroll-logo" class="navbar-brand" href="index.html">
+                    <img id="top-logo" src="asset/image/logo.png" alt="logo">
+                    <img id="buttom-logo" src="asset/image/white_hexa32.png" alt="logo">
+                </a>
             </div>
-            <div class="row">
-                <div class="features">
-                    <div class="col-md-7 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="wr-custome">
-                            <h2>Tinggalkan Pesan</h2>
-                            <br>
-                            <form class="form-horizontal" role="form">
-                                <div class="input-group margin-bottom-sm">
-                                  <span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
-                                  <input class="form-control" type="text" placeholder="Nama">
-                                </div>
-                                <br>
-                                <div class="input-group margin-bottom-sm">
-                                  <span class="input-group-addon"><i class="fa fa-at fa-fw"></i></span>
-                                  <input class="form-control" type="text" placeholder="Alamat Email">
-                                </div>
-                                <br>
-                                <div class="input-group margin-bottom-sm">
-                                  <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
-                                  <textarea class="form-control" placeholder="Pesan ..."></textarea>
-                                </div>
-                                <div class="input-group margin-bottom-sm">
-                                	<a href="" class="btn btn-primary"><b>Kirim</b></a>
-                                </div>                             
-                              </form>
-                        </div>
-                    </div><!--/.col-md-4-->
 
-                    <div class="col-md-5 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="wr-custome">
-                            <h2>Hubungi Kami</h2>
-                            <br>
-                            <ul class="fa-ul">
-                                <li><i class="fa-li fa fa-map-marker"></i>Jl. L. Raya Boulevard Blok CN 2 No 10 Kelapa Gading, Jakarta Utara, Indonesia</li>
-                                <li><i class="fa-li fa fa-mobile"></i>+62 (21) 123 123</li>
-                                <li><i class="fa-li fa fa-envelope-o"></i>cs@mervotura.com</li>
-                            </ul>
-                        </div>
-                        <div class="wr-custome">
-                            <h2>Media Sosial</h2>
-                            <br>
-                            <span class="fa-stack fa-2x">
-			                	<i class="fa fa-circle fa-stack-2x text-primary"></i>
-			                	<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-			                </span>
-			                <span class="fa-stack fa-2x">
-			                	<i class="fa fa-circle fa-stack-2x text-primary"></i>
-			                	<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-			                </span>
-			                <span class="fa-stack fa-2x">
-			                	<i class="fa fa-circle fa-stack-2x text-primary"></i>
-			                	<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
-			                </span>
-                        </div>
-                    </div><!--/.col-md-4-->
-                </div><!--/.services-->
-            </div><!--/.row-->    
+            <div id="navbar" class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a class="change" href="index.html">Beranda</a></li>
+                    <li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Layanan <span class="caret"></span></a>
+		              <ul class="dropdown-menu" role="menu">
+	                    <li><a class="change" href="#.qpos">QPOS</a></li>
+	                    <li><a class="change" href="#.qstore">QStore</a></li>
+	                    <li><a class="change" href="#.qdelivery">QDelivery</a></li>
+	                    <li><a class="change" href="#.qdistribution">QDistribution</a></li>
+		              </ul>
+		            </li>
+
+                    
+                    <li><a class="change" href="tour.html">Langkah Memulai</a></li>
+                    <li><a class="change" href="login.html">Masuk/Daftar</a></li>
+                    <li><a class="change" href="about-us.html">Hubungi Kami</a></li>
+                </ul>
+            </div>
         </div><!--/.container-->
+    </div><!--/nav-->
+
+</header><!--/header-->
+
+<section id="main-slider" class="no-margin">
+    <div class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#main-slider" data-slide-to="1"></li>
+            <li data-target="#main-slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" >
+
+            <div class="item active" style="background-image: url('asset/image/bg44.jpg')">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content slider-well">
+                                <h1 class="animation animated-item-1"><i class="fa fa-tablet"></i> QPOS</h1>
+                                <h2 class="animation animated-item-2">Sistem POS terpadu menggunakan Android sebagai Point of Sales Anda.</h2>
+                                <a class="btn-slide animation animated-item-3" href="#">Lebih Lanjut</a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div><!--/.item-->
+
+            <div class="item" style="background-image: url('asset/image/bg55.jpg')">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content slider-well">
+                                <h1 class="animation animated-item-1"><i class="fa fa-truck"></i> QDelivery</h1>
+                                <h2 class="animation animated-item-2">Sistem Penjualan dan Pesan Antar terintegrasi.</h2>
+                                <a class="btn-slide animation animated-item-3" href="#">Lebih Lanjut</a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div><!--/.item-->
+
+            <div class="item" style="background-image: url('asset/image/bg33.jpg')">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content slider-well">
+                                <h1 class="animation animated-item-1"><i class="fa fa-bookmark-o"></i> Toko Online</h1>
+                                <h2 class="animation animated-item-2">Otomatis setiap site dapat menjadi toko online terpadu</h2>
+                                <a class="btn-slide animation animated-item-3" href="#">Lebih Lanjut</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 hidden-xs animation animated-item-4">
+
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.carousel-inner-->
+    </div><!--/.carousel-->
+    <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+    </a>
+    <a class="next hidden-xs" href="#main-slider" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+    </a>
+</section><!--/#main-slider-->
+
+<section  id="qpos" class="qpos features-blue">
+    <div class="container">
+       <div class="center wow fadeInDown">
+        <h2>QPOS</h2>
+        <p class="lead">Sistem Point of Sales (POS) yang memiliki fitur-fitur <br>yang sangat lengkap untuk kebutuhan operasional outlet/toko Anda.</p>
     </div>
+
+    <div class="row">
+        <div class="features">
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-tablet"></i>
+                    <h2>Point of Sales</h2>
+                    <h3>Pelayanan QPOS merupakan pelayanan terintegrasi dan tersentralisasi.</h3>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-cubes"></i>
+                    <h2>Stock Management</h2>
+                    <h3>Memudahkan mengakses dan mengatur persediaan di semua cabang toko Anda.</h3>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-users"></i>
+                    <h2>Multi Role</h2>
+                    <h3>Memungkinkan untuk menampilkan layanan sistem sesuai dengan hak aksesnya.</h3>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-print"></i>
+                    <h2>Printing</h2>
+                    <h3>Cetak dokumen langsung ke printer POS populer (Epson).</h3>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-refresh"></i>
+                    <h2>Syncronization</h2>
+                    <h3>Pengiriman data secara periodik dari setiap toko ke Cloud</h3>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-pie-chart"></i>
+                    <h2>Reporting</h2>
+                    <h3>Cloud reporting terpadu terhadap seluruh kegiatan operasional</h3>
+                </div>
+            </div><!--/.col-md-4-->
+             <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap">
+                <i class="fa fa-mobile"></i>
+                <h2>Booth Mode (QBooth)</h2>
+                <h3>Standalone POS yang dapat dioperasionalkan secara remote, yang sangat cocok untuk toko kecil, event based atau berpindah-pindah </h3>
+              </div>
+            </div><!--/.col-md-4-->
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap">
+                <i class="fa fa-coffee"></i>
+                <h2>Cafe Mode (QCafe)</h2>
+                <h3>Solusi untuk toko berjenis cafe yang membutuhkan beberapa jenis pelayanan, seperti Server, Cashier, dan Chef.</h3>
+              </div>
+            </div><!--/.col-md-4-->
+           
+             <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap">
+                <i class="fa fa-wifi"></i>
+                <h2>Wifi untuk QCafe</h2>
+                <h3>Fitur integrasi dengan WiFi, sehingga yang memesan dan beli yang mendapat akses Internet.</h3>
+              </div>
+            </div><!--/.col-md-4-->
+        </div><!--/.services-->
+    </div><!--/.row-->
+    <div class="pull-right">
+        <a href="qpos.html"><b>Informasi Lebih Lanjut >> </b></a>
+    </div>
+</div><!--/.container-->
+</section><!--/#feature-->
+
+
+<section id="qstore" class="qstore ">
+    <div class="container">
+       <div class="center wow fadeInDown">
+        <h2>QStore</h2>
+        <p class="lead">Toko online untuk menjangkau audience yang tidak dapat berkunjung ke toko fisik.</p>
+    </div>
+
+    <div class="row">
+        <div class="features">
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-th-large"></i>
+                    <h2>Product Catalog</h2>
+                    <h3>Produk-produk dengan kategorisasi ditampilkan secara online.</h3>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-shopping-cart"></i>
+                    <h2>Shopping Cart</h2>
+                    <h3>Keranjang belanja bagi setiap pengunjung yang membimbingnya untuk transaksi.</h3>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-tags"></i>
+                    <h2>Discount and Promotion</h2>
+                    <h3>Diskon produk, kombinasi paket dan promo terbaru.</h3>
+                </div>
+            </div><!--/.col-md-4-->
+         </div><!--/.services-->
+    </div><!--/.row-->
+    <div class="row">
+        <div class="features">
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-truck"></i>
+                    <h2>Shipping Gateway Integration</h2>
+                    <h3>Terintegrasi dengan perusahaan pengiriman terpercaya</h3>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-credit-card"></i>
+                    <h2>Payment Gateway Integration (VT)</h2>
+                    <h3>Metode pembayaran yang beragam mulai dari Master, VISA maupun menggunakan Kartu Debit.</h3>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-globe"></i>
+                    <h2>Dedicated Domain</h2>
+                    <h3>Toko online dengan nama domain tersendiri.</h3>
+                </div>
+            </div><!--/.col-md-4-->
+        </div><!--/.services-->
+    </div><!--/.row-->
+
+    <div class="pull-right">
+        <a href="qstore.html"><b>Informasi Lebih Lanjut >> </b></a>
+    </div>
+</div><!--/.container-->
+</section><!--/#feature-->
+
+
+<section id="qdelivery" class="qdelivery">
+    <div class="container">
+       <div class="center wow fadeInDown">
+        <h2>QDelivery</h2>
+        <p class="lead">Sistem penjualan pesan antar terintegrasi dengan QPOS.</p>
+    </div>
+
+    <div class="row">
+        <div class="features">
+            <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-tablet"></i>
+                    <h2>Delivery Order</h2>
+                    <h3>Penerimaan pesanan pelanggan datang ke toko diinput pada sistem POS yang akan dikirim ke Cloud untuk proses pengiriman.</h3>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-phone"></i>
+                    <h2>Call Center Order</h2>
+                    <h3>Pemesanan menggunakan telepon atau short number</h3>
+                </div>
+            </div><!--/.col-md-4-->
+         </div><!--/.services-->
+    </div><!--/.row-->
+    <div class="row">
+        <div class="features">
+            <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-truck"></i>
+                    <h2>Multi Shipping</h2>
+                    <h3>Pemesanan terpusat dengan tujuan pengiriman terdistribusi mengikuti banyaknya cabang.</h3>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="feature-wrap">
+                    <i class="fa fa-file-text-o"></i>
+                    <h2>Reporting</h2>
+                    <h3>Menampilkan laporan pemesanan, pengiriman dan penagihan untuk memonitor semua operasional perusahaan.</h3>
+                </div>
+            </div><!--/.col-md-4-->
+        </div><!--/.services-->
+    </div><!--/.row-->
+
+    <div class="pull-right">
+        <a href="qstore.html"><b>Informasi Lebih Lanjut >> </b></a>
+    </div>
+</div><!--/.container-->
+</section><!--/#feature-->
+
+
+<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<section id="qdistribution" class="qdistribution ">
+        <div class="container">
+           <div class="center wow fadeInDown">
+            <h2>QDistribution</h2>
+            <p class="lead">Sistem manajemen distribusi mencakup proses pemesanan, pembelian, penjualan, <br>penagihan dan pembayaran. </p>
+        </div>
+        <div class="col-md-4">
+            <div class="media">
+                <div class="pull-left">
+                    <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                      <i class="fa fa-edit fa-stack-1x fa-inverse"></i>
+                  </span>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Pesanan Pembelian</h4>
+                <p>Proses pemesanan barang yang akan dipesan ke supplier.</p>
+            </div>
+        </div>
+        <div class="media">
+            <div class="pull-left">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
+              </span>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Penerimaan Barang</h4>
+            <p>Proses penerimaan barang dari proses pemesanan.</p>
+        </div>
+    </div>
+    <div class="media">
+        <div class="pull-left">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-exchange fa-stack-1x fa-inverse"></i>
+          </span>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">Retur Pembelian</h4>
+        <p>Kegiatan mengembalikan produk yang tidak sesuai.</p>
+    </div>
+</div>
+</div>
+<div class="col-md-4">
+    <div class="media">
+        <div class="pull-left">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-usd fa-stack-1x fa-inverse"></i>
+          </span>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">Pembayaran Pembelian</h4>
+        <p>Proses pembayaran terhadap pembelian yang berkaitan dengan proses pemesanan barang.</p>
+    </div>
+</div>
+<div class="media">
+    <div class="pull-left">
+        <span class="fa-stack fa-2x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-files-o fa-stack-1x fa-inverse"></i>
+      </span>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Pesanan Penjualan</h4>
+    <p>Proses memesan barang-barang oleh pelanggan.</p>
+</div>
+</div>
+<div class="media">
+    <div class="pull-left">
+        <span class="fa-stack fa-2x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-truck fa-stack-1x fa-inverse"></i>
+      </span>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Pengiriman Barang</h4>
+    <p>Pengiriman barang dari toko ke pelanggan.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+    <div class="media">
+        <div class="pull-left">
+            <span class="fa-stack fa-2x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-exchange fa-stack-1x fa-inverse"></i>
+          </span>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">Retur Penjualan</h4>
+        <p>Retur Penjualan mencatat barang-barang yang dikembalikan oleh pelanggan.</p>
+    </div>
+</div>
+<div class="media">
+    <div class="pull-left">
+        <span class="fa-stack fa-2x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-calculator fa-stack-1x fa-inverse"></i>
+      </span>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Penagihan</h4>
+    <p>Penagihan menampilkan informasi surat tagihan yang dikirim ke pelanggan.</p>
+</div>
+</div>
+<div class="media">
+    <div class="pull-left">
+        <span class="fa-stack fa-2x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-money fa-stack-1x fa-inverse"></i>
+      </span>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Penerimaan Pembayaran</h4>
+    <p>Mencatat penerimaan pembayaran dari pelanggan.</p>
+</div>
+</div>
+</div>
+<div class="pull-right">
+    <a href="qdistribution.html"><b>Informasi Lebih Lanjut >> </b></a>
+</div>
 </section>
+<!-- /.row -->
 
 <footer id="footer" class="midnight-blue">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                &copy; 2014 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">Hoqii</a>
+                &copy; 2014 - 2015, <a target="_blank" href="#" title="Hoqii">Hoqii Systems</a>                
             </div>
             <div class="col-sm-6">
                 <ul class="pull-right">
-					<li><a href="index.html">Beranda</a></li>
-					<li><a href="about-us.html">Tentang</a></li>
-	                <li><a href="policy.html">Ketentuan</a></li>
-    	            <li><a href="terms.html">Syarat</a></li>
-        	        <li><a href="contact-us.html">Hubungi Kami</a></li>
-            	    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="about-us.html">Tentang</a></li>
+                    <li><a href="policy.html">Ketentuan</a></li>
+                    <li><a href="terms.html">Syarat</a></li>
+                    <li><a href="contact-us.html">Hubungi Kami</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                 </ul>
             </div>
         </div>
@@ -150,5 +494,29 @@
 <script src="asset/js/bootstrap/bootstrap.min.js"></script>
 <script type="text/javascript">
     AA_CONFIG.scrollOffset=35;
+
+    $( document ).ready(function() {
+    	$('.dropdown-toggle').dropdown()
+         $("#buttom-logo").hide();
+         $(window).scroll(function(){
+             var distanceY = $(window).scrollTop(),
+                shrinkOn = 650,
+                header = $("#scroll-nav");
+            if (distanceY > shrinkOn) {
+                header.addClass( "navbar-scroll" );
+                $("#buttom-logo").show();
+                $("#buttom-logo").css("height","32px");
+                $("#top-logo").hide();
+            } else {
+                $("#buttom-logo").hide();
+                $("#top-logo").show();
+                if (header.hasClass( "navbar-scroll" )) {
+                    header.removeClass( "navbar-scroll" );
+                }
+            }
+        })
+    });
+
 </script>
 </body>
+</html>
