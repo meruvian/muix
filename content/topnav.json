@@ -1,11 +1,11 @@
 [
 	{
 		"name": "Beranda",
-		"link": "#/"
+		"link": "/"
 	},
 	{
 		"name": "Layanan",
-		"link": "#/",
+		"link": "/",
 		"menus": [
 			{
 				"name": "QPOS",
@@ -31,11 +31,11 @@
 	},
 	{
 		"name": "Langkah Memulai",
-		"link": "#/tour"
+		"link": "tour.html"
 	},
 	{
 		"name": "Masuk/Daftar",
-		"link": "#/login"
+		"link": "login.html"
 	},
 	{
 		"name": "Hubungi Kami",
