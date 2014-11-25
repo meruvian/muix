@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="id01"></div>
+<br>
+<div id="id02"></div>
+<script>
+var xmlhttp = new XMLHttpRequest();
+var url = "footer.json";
+
+xmlhttp.onreadystatechange = function() {
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        var myArr = JSON.parse(xmlhttp.responseText);
+        myFunction(myArr);
+    }
+}
+xmlhttp.open("GET", url, true);
+xmlhttp.send();
+
+function myFunction(arr) {
+    var out = "";
+    var i;
+    for(i = 0; i < arr.length; i++) {
+        out += '<a href="' + arr[i].link + '">' + 
+        arr[i].name + '</a><br>';
+    }
+    document.getElementById("id01").innerHTML = out;
+}
+</script>
+<script>
+var xmlhttp2 = new XMLHttpRequest();
+var url2 = "topnav.json";
+
+xmlhttp2.onreadystatechange = function() {
+    if (xmlhttp2.readyState == 4 && xmlhttp2.status == 200) {
+        var myNavArr = JSON.parse(xmlhttp2.responseText);
+        myNav(myNavArr);
+    }
+}
+xmlhttp2.open("GET", url2, true);
+xmlhttp2.send();
+
+function myNav(arr) {
+    var out = "";
+    var i;
+    for(i = 0; i < arr.length; i++) {
+        out += '<a href="' + arr[i].link + '">' + 
+        arr[i].name + '</a><br>';
+        arr[i].menus[0].name + '</a><br>';
+        
+    }
+    document.getElementById("id02").innerHTML = out;
+}
+</script>
+</body>
+</html>
+

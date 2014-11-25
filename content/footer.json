@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Tentang",
+		"link": "#/about-us.html"
+	},
+	{
+		"name": "Ketentuan",
+		"link": "#/policy.html"
+	},
+	{
+		"name": "Syarat",
+		"link": "#/terms.html"
+	},
+	{
+		"name": "Hubungi Kami",
+		"link": "#/contact-us.html"
+	},
+	{
+		"name": "FAQ",
+		"link": "#/faq.html"
+	}
+]
